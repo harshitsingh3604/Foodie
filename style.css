@@ -34,7 +34,6 @@ a{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 li{
     list-style:none;
@@ -283,7 +282,7 @@ h4{
     align-items: center;
     padding: .7rem 1rem;
     gap: 1rem;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .item.slide-out{
@@ -511,7 +510,6 @@ input[type="email"]:focus{
         font-size: 3rem;
     }
 
-
     /* SECTION-04 */
     .app-container{
         padding: 2.2rem;
@@ -524,9 +522,12 @@ input[type="email"]:focus{
         justify-content: center;
         align-content: center;
     }
-
-    .gap-5{
-        padding: 10px;
+    .input-container{
+        justify-content: center;
+        padding: 1rem 1rem ;  
     }
- 
+
+    .order-btn .order{
+        width: 100%;
+    }
 }
