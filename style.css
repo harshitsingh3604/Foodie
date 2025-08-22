@@ -17,6 +17,7 @@
     --pure-white: #FFF;
 }
 
+
 body{
     background-color: var(--eye-ball);
 }
@@ -163,7 +164,7 @@ p{
 }
 .para{
     margin-block: 2rem;
-    max-width: 550px;
+    /* max-width: 550px; */
 }
 .social-icon{
     background: var(--hint-yellow);
@@ -331,7 +332,6 @@ h4{
 
 
 
-
 /* SECTUIN-03 */
 .review-container{
      /* background: white; */
@@ -451,15 +451,9 @@ input[type="email"]:focus{
 
 
 
+  
 
-
-
-
-
-
-
-
-
+  
 
 /* MEDIA QUERY */
 
@@ -525,4 +519,14 @@ input[type="email"]:focus{
     .app-container .content h2{
         font-size: 3.5rem;
     }
+    .app-container .get-app{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .gap-5{
+        padding: 10px;
+    }
+ 
 }
